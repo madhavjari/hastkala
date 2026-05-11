@@ -33,7 +33,7 @@ body {
 }
 
 body.nav-open {
-  overflow: hidden;
+  overflow: auto;
 }
 
 a {
@@ -657,6 +657,11 @@ h3 {
 }
 
 @media (max-width: 720px) {
+  .site-header {
+    position: sticky;
+    isolation: isolate;
+  }
+
   .nav-toggle {
     position: relative;
     z-index: 30;
@@ -664,18 +669,37 @@ h3 {
   }
 
   .nav-links {
-    position: fixed;
-    inset: 0;
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 14px;
+    left: 14px;
     display: grid;
-    align-content: center;
-    justify-items: center;
-    gap: 22px;
-    font-size: 1.2rem;
+    gap: 6px;
+    padding: 12px;
+    font-size: 1rem;
     background: rgba(255, 248, 239, 0.98);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
     opacity: 0;
     pointer-events: none;
-    transform: translateY(-12px);
+    transform: translateY(-8px);
     transition: opacity 180ms ease, transform 180ms ease;
+  }
+
+  .nav-links a {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 8px;
+  }
+
+  .nav-links a:hover,
+  .nav-links a:focus-visible {
+    background: rgba(141, 36, 49, 0.08);
+  }
+
+  .nav-links a::after {
+    display: none;
   }
 
   body.nav-open .nav-links {
