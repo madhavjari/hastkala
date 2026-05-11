@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hastkala Handmade</title>
+    <meta
+      name="description"
+      content="Handcrafted saree latkans, tassels, potli charms, and custom blouse dori accessories by Hastkala Handmade."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Hastkala Handmade home">
+        <span class="brand-mark">H</span>
+        <span>
+          <strong>Hastkala</strong>
+          <small>Handmade Latkans</small>
+        </span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Open menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#collection">Collection</a>
+        <a href="#craft">Craft</a>
+        <a href="#custom">Custom Orders</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Saree latkans made by hand</p>
+          <h1>Hastkala</h1>
+          <p class="hero-text">
+            Elegant latkans, tassels, beads, shells, and potli charms designed
+            to finish sarees, lehengas, blouse doris, and festive gifts with a
+            handcrafted touch.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#collection">View Designs</a>
+            <a class="button secondary" href="#contact">Request Custom Set</a>
+          </div>
+          <div class="hero-stats" aria-label="Business highlights">
+            <span><strong>250+</strong> styles</span>
+            <span><strong>7 day</strong> dispatch</span>
+            <span><strong>Custom</strong> colors</span>
+          </div>
+        </div>
+
+        <div
+          class="hero-art"
+          aria-label="Decorative display of handmade saree latkans"
+        >
+          <div class="fabric-panel">
+            <img
+              class="hero-image"
+              src="assets/latkan-display.svg"
+              alt="Three handmade saree latkans with beads and tassels on a rich fabric panel"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro">
+        <div>
+          <p class="eyebrow">For boutique finishing</p>
+          <h2>Details that make the drape feel complete.</h2>
+        </div>
+        <p>
+          From daily-wear cotton sarees to heavy bridal lehengas, Hastkala
+          builds each latkan pair with balanced weight, neat knots,
+          color-matched threads, and durable finishing for repeated use.
+        </p>
+      </section>
+
+      <section class="section collection" id="collection">
+        <div class="section-heading">
+          <p class="eyebrow">Signature collection</p>
+          <h2>Choose by occasion, fabric, or color story.</h2>
+        </div>
+
+        <div class="filters" aria-label="Filter collection">
+          <button class="filter active" type="button" data-filter="all">
+            All
+          </button>
+          <button class="filter" type="button" data-filter="bridal">
+            Bridal
+          </button>
+          <button class="filter" type="button" data-filter="festive">
+            Festive
+          </button>
+          <button class="filter" type="button" data-filter="minimal">
+            Minimal
+          </button>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card" data-category="bridal">
+            <div class="product-visual ruby">
+              <span></span>
+            </div>
+            <div>
+              <h3>Kundan Pearl Drop</h3>
+              <p>
+                Rich pearl bunches with gold beads for silk sarees and bridal
+                blouses.
+              </p>
+              <span class="tag">Bridal</span>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="festive">
+            <div class="product-visual teal">
+              <span></span>
+            </div>
+            <div>
+              <h3>Mirror Tassel Pair</h3>
+              <p>
+                Bright mirror accents with silk-thread tassels for festive
+                drapes.
+              </p>
+              <span class="tag">Festive</span>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="minimal">
+            <div class="product-visual ivory">
+              <span></span>
+            </div>
+            <div>
+              <h3>Cotton Shell Knot</h3>
+              <p>
+                Lightweight handmade shell detail for linen, cotton, and organza
+                sarees.
+              </p>
+              <span class="tag">Minimal</span>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="bridal">
+            <div class="product-visual plum">
+              <span></span>
+            </div>
+            <div>
+              <h3>Zari Potli Charm</h3>
+              <p>
+                Mini potli latkans with zari cords, pearls, and soft ghungroo
+                movement.
+              </p>
+              <span class="tag">Bridal</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section craft" id="craft">
+        <div class="craft-copy">
+          <p class="eyebrow">Our craft</p>
+          <h2>Made slowly, finished neatly, packed with care.</h2>
+          <p>
+            Every set is measured, knotted, trimmed, and checked by hand so the
+            pair hangs evenly. Orders can be matched to blouse fabric, saree
+            border, wedding palette, or boutique collection theme.
+          </p>
+        </div>
+        <div class="steps" aria-label="Order process">
+          <div>
+            <span>01</span>
+            <h3>Share Fabric</h3>
+            <p>Send a photo, shade, or reference piece for color matching.</p>
+          </div>
+          <div>
+            <span>02</span>
+            <h3>Select Finish</h3>
+            <p>
+              Pick pearls, beads, shells, mirrors, zari, tassels, or potli
+              charms.
+            </p>
+          </div>
+          <div>
+            <span>03</span>
+            <h3>Receive Pair</h3>
+            <p>Get a ready-to-stitch latkan set packed safely for delivery.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section custom" id="custom">
+        <div class="custom-panel">
+          <p class="eyebrow">Custom work</p>
+          <h2>Color-matched latkans for boutiques, brides, and gifting.</h2>
+          <p>
+            Bulk and single-piece orders are welcome. We can build matching sets
+            for sarees, lehengas, dupattas, blouse doris, potlis, and festive
+            hampers.
+          </p>
+          <a class="button primary" href="#contact">Start an Enquiry</a>
+        </div>
+        <div class="swatches" aria-label="Available color palette examples">
+          <span class="swatch maroon"></span>
+          <span class="swatch mustard"></span>
+          <span class="swatch emerald"></span>
+          <span class="swatch rose"></span>
+          <span class="swatch navy"></span>
+          <span class="swatch pearl"></span>
+        </div>
+      </section>
+
+      <section class="section testimonials">
+        <div class="quote-card">
+          <p>
+            "The finishing was beautiful and the colors matched my saree border
+            perfectly. The latkans made the whole blouse look custom."
+          </p>
+          <span>- Boutique customer</span>
+        </div>
+        <div class="quote-card">
+          <p>
+            "We ordered multiple pieces for wedding hampers. Each pair arrived
+            neatly packed and ready to attach."
+          </p>
+          <span>- Bridal order</span>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div>
+          <p class="eyebrow">Enquiries</p>
+          <h2>Tell us your saree shade, occasion, and quantity.</h2>
+          <p>
+            Share your reference and we will suggest materials, size, and
+            finishing options for your latkan pair.
+          </p>
+          <div class="contact-details" aria-label="Hastkala contact details">
+            <a href="https://wa.me/918141422171" target="_blank" rel="noreferrer">
+              WhatsApp: +91 81414 22171
+            </a>
+            <address>157, Vishal Society, Bhatar Char Rasta, Surat</address>
+          </div>
+        </div>
+        <form class="contact-form">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Phone or email
+            <input
+              type="text"
+              name="contact"
+              placeholder="Where should we reply?"
+              required
+            />
+          </label>
+          <label>
+            Requirement
+            <textarea
+              name="message"
+              rows="4"
+              placeholder="Example: 12 pearl latkan pairs for red silk sarees"
+              required
+            ></textarea>
+          </label>
+          <button class="button primary" type="submit">Send on WhatsApp</button>
+          <p class="form-note" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Hastkala Handmade</p>
+      <p>
+        157, Vishal Society, Bhatar Char Rasta, Surat | +91 81414 22171
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

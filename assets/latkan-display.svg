@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 635" role="img" aria-labelledby="title desc">
+  <title id="title">Handmade saree latkans display</title>
+  <desc id="desc">Three beaded tassel latkans hanging over a patterned fabric panel.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff4c9"/>
+      <stop offset="0.55" stop-color="#d6a12b"/>
+      <stop offset="1" stop-color="#8b5c13"/>
+    </linearGradient>
+    <linearGradient id="tealThread" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#25a49a"/>
+      <stop offset="1" stop-color="#075a58"/>
+    </linearGradient>
+    <linearGradient id="maroonThread" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#d64c61"/>
+      <stop offset="1" stop-color="#751728"/>
+    </linearGradient>
+    <linearGradient id="mustardThread" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f5cf5b"/>
+      <stop offset="1" stop-color="#b97018"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-20%" width="160%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#2b120d" flood-opacity="0.28"/>
+    </filter>
+    <pattern id="threadLines" width="11" height="11" patternUnits="userSpaceOnUse">
+      <path d="M0 0h2v11H0z" fill="#ffffff" opacity="0.18"/>
+    </pattern>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <path d="M99 20h322c22 0 40 18 40 40v515c0 22-18 40-40 40H99c-22 0-40-18-40-40V60c0-22 18-40 40-40z" fill="#fff7e7" opacity="0.2"/>
+    <path d="M106 38h308c17 0 31 14 31 31v493c0 17-14 31-31 31H106c-17 0-31-14-31-31V69c0-17 14-31 31-31z" fill="none" stroke="#ffedbc" stroke-width="4" opacity="0.72"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <g transform="translate(104 80)">
+      <path d="M65 0c0 80-2 128-2 178" fill="none" stroke="#ffe4a9" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="65" cy="186" r="24" fill="url(#gold)" stroke="#fff5d5" stroke-width="5"/>
+      <circle cx="41" cy="218" r="16" fill="#fff4d6" stroke="#d8a743" stroke-width="4"/>
+      <circle cx="88" cy="218" r="16" fill="#fff4d6" stroke="#d8a743" stroke-width="4"/>
+      <path d="M36 229h58l20 164H16z" fill="url(#tealThread)"/>
+      <path d="M36 229h58l20 164H16z" fill="url(#threadLines)"/>
+      <path d="M28 396h74" stroke="#f3c84c" stroke-width="7" stroke-linecap="round"/>
+    </g>
+
+    <g transform="translate(309 118)">
+      <path d="M61 0c0 86-1 145-1 205" fill="none" stroke="#ffe4a9" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="61" cy="214" r="25" fill="url(#gold)" stroke="#fff5d5" stroke-width="5"/>
+      <circle cx="33" cy="248" r="16" fill="#fff4d6" stroke="#d8a743" stroke-width="4"/>
+      <circle cx="88" cy="248" r="16" fill="#fff4d6" stroke="#d8a743" stroke-width="4"/>
+      <path d="M29 260h64l18 150H11z" fill="url(#mustardThread)"/>
+      <path d="M29 260h64l18 150H11z" fill="url(#threadLines)"/>
+      <path d="M22 414h78" stroke="#0f746f" stroke-width="7" stroke-linecap="round"/>
+    </g>
+
+    <g transform="translate(205 274)">
+      <path d="M56 0c1 50 1 81 1 118" fill="none" stroke="#ffe4a9" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="57" cy="126" r="22" fill="url(#gold)" stroke="#fff5d5" stroke-width="5"/>
+      <circle cx="34" cy="155" r="14" fill="#fff4d6" stroke="#d8a743" stroke-width="4"/>
+      <circle cx="80" cy="155" r="14" fill="#fff4d6" stroke="#d8a743" stroke-width="4"/>
+      <path d="M31 166h52l18 132H13z" fill="url(#maroonThread)"/>
+      <path d="M31 166h52l18 132H13z" fill="url(#threadLines)"/>
+      <path d="M22 302h70" stroke="#f3c84c" stroke-width="7" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
