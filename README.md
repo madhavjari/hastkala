@@ -25,6 +25,8 @@ hastkala/
   assets/
     hastkala-logo.jpg
     instagram-logo.svg
+    lace-1.png
+    lace-2.jpeg
     main-image.png
     latkan-display.svg
     tassel-1.png
