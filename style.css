@@ -7,6 +7,7 @@
   --muted: #735f57;
   --paper: #fff8ef;
   --cream: #f6ead8;
+  --surface-blue: #f2f8f9;
   --maroon: #8d2431;
   --rose: #d96b79;
   --teal: #0f746f;
@@ -67,8 +68,8 @@ textarea {
   justify-content: space-between;
   gap: 24px;
   padding: 18px clamp(18px, 4vw, 56px);
-  background: rgba(255, 248, 239, 0.9);
-  border-bottom: 1px solid var(--line);
+  background: rgba(242, 248, 249, 0.92);
+  border-bottom: 1px solid rgba(79, 134, 166, 0.18);
   backdrop-filter: blur(18px);
 }
 
@@ -146,8 +147,8 @@ textarea {
   width: 44px;
   height: 44px;
   padding: 0;
-  background: #fffaf2;
-  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(79, 134, 166, 0.22);
   border-radius: 8px;
 }
 
@@ -643,8 +644,8 @@ h3 {
     gap: 6px;
     padding: 12px;
     font-size: 1rem;
-    background: rgba(255, 248, 239, 0.98);
-    border: 1px solid var(--line);
+    background: rgba(242, 248, 249, 0.98);
+    border: 1px solid rgba(79, 134, 166, 0.2);
     border-radius: 8px;
     box-shadow: var(--shadow);
     opacity: 0;
