@@ -34,11 +34,7 @@ body {
       rgba(79, 134, 166, 0.16),
       transparent 30%
     ),
-    radial-gradient(
-      circle at 88% 4%,
-      rgba(185, 132, 37, 0.1),
-      transparent 26%
-    ),
+    radial-gradient(circle at 88% 4%, rgba(185, 132, 37, 0.1), transparent 26%),
     linear-gradient(135deg, #fbf7f0 0%, #eaf3f5 48%, #fff8ef 100%);
   font-family: "Manrope", Arial, sans-serif;
   line-height: 1.6;
@@ -206,6 +202,7 @@ h2 {
   margin-bottom: 18px;
   font-size: clamp(2rem, 4.8vw, 4rem);
   letter-spacing: 0;
+  color: #243f4f;
 }
 
 h3 {
@@ -362,6 +359,10 @@ h3 {
 .contact p {
   color: var(--muted);
   font-size: 1.04rem;
+}
+
+.craft-copy h2 {
+  color: white;
 }
 
 .contact-details {
