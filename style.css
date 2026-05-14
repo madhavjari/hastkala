@@ -13,10 +13,11 @@
   --emerald: #167052;
   --mustard: #d6a12b;
   --gold: #b98425;
-  --plum: #5d263b;
-  --deep-plum: #341924;
+  --cool-blue: #4f86a6;
+  --deep-blue: #2f5f78;
+  --mist: #eaf3f5;
   --line: rgba(36, 25, 21, 0.14);
-  --shadow: 0 22px 55px rgba(91, 47, 31, 0.16);
+  --shadow: 0 22px 55px rgba(47, 95, 120, 0.16);
 }
 
 html {
@@ -29,15 +30,15 @@ body {
   background:
     radial-gradient(
       circle at 12% 12%,
-      rgba(185, 132, 37, 0.16),
+      rgba(79, 134, 166, 0.16),
       transparent 30%
     ),
     radial-gradient(
       circle at 88% 4%,
-      rgba(93, 38, 59, 0.12),
+      rgba(185, 132, 37, 0.1),
       transparent 26%
     ),
-    linear-gradient(135deg, #fffaf2 0%, #f7ead7 46%, #fbf4e8 100%);
+    linear-gradient(135deg, #fbf7f0 0%, #eaf3f5 48%, #fff8ef 100%);
   font-family: "Manrope", Arial, sans-serif;
   line-height: 1.6;
 }
@@ -86,7 +87,7 @@ textarea {
   object-position: center;
   background: #fff;
   border-radius: 50%;
-  box-shadow: 0 8px 24px rgba(91, 47, 31, 0.22);
+  box-shadow: 0 8px 24px rgba(47, 95, 120, 0.22);
 }
 
 .brand strong,
@@ -172,7 +173,7 @@ textarea {
 
 .eyebrow {
   margin: 0 0 12px;
-  color: var(--plum);
+  color: var(--deep-blue);
   font-size: 0.78rem;
   font-weight: 900;
   letter-spacing: 0.18em;
@@ -195,7 +196,7 @@ h2 {
 h1 {
   max-width: 760px;
   margin-bottom: 22px;
-  color: var(--deep-plum);
+  color: #243f4f;
   font-size: clamp(4.5rem, 12vw, 10.5rem);
   letter-spacing: 0;
 }
@@ -250,8 +251,8 @@ h3 {
 
 .button.primary {
   color: #fff;
-  background: var(--plum);
-  box-shadow: 0 16px 36px rgba(93, 38, 59, 0.24);
+  background: var(--deep-blue);
+  box-shadow: 0 16px 36px rgba(47, 95, 120, 0.24);
 }
 
 .button.secondary,
@@ -263,8 +264,8 @@ h3 {
 
 .filter.active {
   color: #fff;
-  background: var(--plum);
-  border-color: var(--plum);
+  background: var(--cool-blue);
+  border-color: var(--cool-blue);
 }
 
 .hero-stats {
@@ -284,7 +285,7 @@ h3 {
 
 .hero-stats strong {
   display: block;
-  color: var(--plum);
+  color: var(--deep-blue);
   font-size: 1.25rem;
 }
 
@@ -299,8 +300,8 @@ h3 {
   width: min(100%, 560px);
   aspect-ratio: 0.9;
   overflow: hidden;
-  background: #efe1cc;
-  border: 10px solid rgba(255, 250, 242, 0.78);
+  background: var(--mist);
+  border: 10px solid rgba(255, 255, 255, 0.76);
   border-radius: 8px;
   box-shadow: var(--shadow);
 }
@@ -310,7 +311,7 @@ h3 {
   inset: 14px;
   z-index: 3;
   content: "";
-  border: 1px solid rgba(255, 231, 171, 0.62);
+  border: 1px solid rgba(255, 238, 190, 0.64);
   border-radius: 8px;
   pointer-events: none;
 }
@@ -320,7 +321,7 @@ h3 {
   inset: 0;
   z-index: 2;
   content: "";
-  background: linear-gradient(180deg, transparent 68%, rgba(52, 25, 36, 0.18));
+  background: linear-gradient(180deg, transparent 70%, rgba(47, 95, 120, 0.16));
   pointer-events: none;
 }
 
@@ -374,7 +375,7 @@ h3 {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  color: var(--plum);
+  color: var(--deep-blue);
 }
 
 .contact-details img,
@@ -452,15 +453,15 @@ h3 {
   display: inline-flex;
   margin-top: 6px;
   padding: 5px 10px;
-  color: var(--plum);
-  background: rgba(93, 38, 59, 0.08);
+  color: var(--deep-blue);
+  background: rgba(79, 134, 166, 0.12);
   border-radius: 999px;
   font-size: 0.78rem;
   font-weight: 900;
 }
 
 .craft {
-  background: var(--deep-plum);
+  background: #284e63;
   color: #fff8ef;
 }
 
@@ -525,7 +526,7 @@ h3 {
 }
 
 .quote-card span {
-  color: var(--plum);
+  color: var(--deep-blue);
   font-weight: 900;
 }
 
@@ -560,14 +561,14 @@ h3 {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: var(--plum);
-  box-shadow: 0 0 0 4px rgba(93, 38, 59, 0.12);
+  border-color: var(--cool-blue);
+  box-shadow: 0 0 0 4px rgba(79, 134, 166, 0.14);
 }
 
 .form-note {
   min-height: 24px;
   margin: 0;
-  color: var(--plum);
+  color: var(--deep-blue);
   font-weight: 800;
 }
 
@@ -662,7 +663,7 @@ h3 {
 
   .nav-links a:hover,
   .nav-links a:focus-visible {
-    background: rgba(93, 38, 59, 0.08);
+    background: rgba(79, 134, 166, 0.1);
   }
 
   .nav-links a::after {
