@@ -22,16 +22,25 @@ hastkala/
   index.html
   style.css
   script.js
+  _headers
   assets/
+    company-logo.webp
     hastkala-logo.jpg
     instagram-logo.svg
+    lace-1.webp
     lace-1.png
+    lace-2.webp
     lace-2.jpeg
-    main-image.png
+    main-image.webp
+    main-image.jpeg
     latkan-display.svg
+    tassel-1.webp
     tassel-1.png
+    tassel-2.webp
     tassel-2.png
+    tassel-3.webp
     tassel-3.png
+    tassel-4.webp
     tassel-4.png
     favicon_io/
       android-chrome-192x192.png

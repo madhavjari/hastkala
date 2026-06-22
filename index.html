@@ -1,23 +1,5 @@
 <!doctype html>
 <html lang="en">
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Hastkala Handmade",
-      "image": "https://hastkalahandmade.netlify.app//assets/main-image.png",
-      "url": "https://hastkalahandmade.netlify.app/",
-      "telephone": "+91 81414 22171",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "157, Vishal Society, Bhatar Char Rasta",
-        "addressLocality": "Surat",
-        "addressRegion": "Gujarat",
-        "addressCountry": "IN"
-      },
-      "sameAs": ["https://www.instagram.com/hastkala__handmade/"]
-    }
-  </script>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -36,13 +18,13 @@
     <meta property="og:url" content="https://hastkalahandmade.netlify.app/" />
     <meta
       property="og:image"
-      content="https://hastkalahandmade.netlify.app/assets/main-image.png"
+      content="https://hastkalahandmade.netlify.app/assets/main-image.jpeg"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
-      rel="stylesheet"
+      rel="preload"
+      as="image"
+      href="assets/main-image.webp"
+      fetchpriority="high"
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="canonical" href="https://hastkalahandmade.netlify.app/" />
@@ -65,13 +47,33 @@
       href="./assets/favicon_io/favicon-16x16.png"
     />
     <link rel="manifest" href="./assets/favicon_io/site.webmanifest" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Hastkala Handmade",
+        "image": "https://hastkalahandmade.netlify.app/assets/main-image.jpeg",
+        "url": "https://hastkalahandmade.netlify.app/",
+        "telephone": "+91 81414 22171",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "157, Vishal Society, Bhatar Char Rasta",
+          "addressLocality": "Surat",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        },
+        "sameAs": ["https://www.instagram.com/hastkala__handmade/"]
+      }
+    </script>
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="#home" aria-label="Hastkala Handmade home">
         <img
           class="brand-mark"
-          src="assets/company-logo.png"
+          src="assets/company-logo.webp"
+          width="160"
+          height="159"
           alt=""
           aria-hidden="true"
         />
@@ -128,8 +130,12 @@
           <div class="fabric-panel">
             <img
               class="hero-image"
-              src="assets/main-image.jpeg"
-              alt="Blue and cyrstal latkans on saree"
+              src="assets/main-image.webp"
+              width="817"
+              height="1591"
+              alt="Blue and crystal latkans on saree"
+              fetchpriority="high"
+              decoding="async"
             />
           </div>
         </div>
@@ -175,8 +181,12 @@
           <article class="product-card" data-category="beaded">
             <div class="product-visual">
               <img
-                src="assets/tassel-1.png"
+                src="assets/tassel-1.webp"
+                width="547"
+                height="656"
                 alt="Magenta and gold beaded handmade saree latkan set"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div>
@@ -192,8 +202,12 @@
           <article class="product-card" data-category="saree">
             <div class="product-visual">
               <img
-                src="assets/tassel-2.png"
+                src="assets/tassel-2.webp"
+                width="563"
+                height="679"
                 alt="Olive green saree pallu with handmade thread tassels"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div>
@@ -209,8 +223,12 @@
           <article class="product-card" data-category="saree">
             <div class="product-visual">
               <img
-                src="assets/tassel-3.png"
+                src="assets/tassel-3.webp"
+                width="556"
+                height="681"
                 alt="Pink and beige saree border with handmade tassel lace"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div>
@@ -226,8 +244,12 @@
           <article class="product-card" data-category="blouse">
             <div class="product-visual">
               <img
-                src="assets/tassel-4.png"
+                src="assets/tassel-4.webp"
+                width="408"
+                height="452"
                 alt="Bridal blouse back with pink pearl handmade dori latkan"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div>
@@ -243,9 +265,12 @@
           <article class="product-card" data-category="lace">
             <div class="product-visual">
               <img
-                id="lace"
-                src="assets/lace-1.png"
+                src="assets/lace-1.webp"
+                width="509"
+                height="768"
                 alt="Pearl and gold handmade lace trim tied on cardboard"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div>
@@ -261,8 +286,12 @@
           <article class="product-card" data-category="lace">
             <div class="product-visual">
               <img
-                src="assets/lace-2.jpeg"
+                src="assets/lace-2.webp"
+                width="700"
+                height="821"
                 alt="Pearl and golden crystal lace trim demo on dark fabric"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div>
